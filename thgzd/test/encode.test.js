@@ -3,7 +3,7 @@ const encodeRailFenceCipher = require('../encode').encodeRailFenceCipher;
 const decodeRailFenceCipher = require('../encode').decodeRailFenceCipher;
 
 /* global define, it, describe, before, beforeEach, afterEach, after */
-describe.only('Rail Fence Cipher: Encoding and Decoding', () => {
+describe('Rail Fence Cipher: Encoding and Decoding', () => {
   it('Hello World! in three rails', () => {
     expect(encodeRailFenceCipher('Hello, World!', 3)).to.be.equal('Hoo!el,Wrdl l');
   });
