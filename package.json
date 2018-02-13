@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/apecr/katas/issues"
   },
-  "homepage": "https://github.com/apecr/katas#readme"
+  "homepage": "https://github.com/apecr/katas#readme",
+  "devDependencies": {
+    "mathjs": "^3.20.2"
+  }
 }
